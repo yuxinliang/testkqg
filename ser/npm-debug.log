@@ -1,0 +1,160 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'socket.io' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData socket.io
+8 silly fetchNamedPackageData socket.io
+9 silly mapToRegistry name socket.io
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'socket.io',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'socket.io',
+12 silly mapToRegistry   name: 'socket.io',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+14 verbose request uri https://registry.npmjs.org/socket.io
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 11:30:42
+17 verbose request id 9d4da5407e02fdc0
+18 verbose etag W/"58ee1a61-24c54"
+19 verbose lastModified Wed, 12 Apr 2017 12:15:29 GMT
+20 http request GET https://registry.npmjs.org/socket.io
+21 http 200 https://registry.npmjs.org/socket.io
+22 verbose headers { server: 'nginx/1.10.3',
+22 verbose headers   'content-type': 'application/json',
+22 verbose headers   'last-modified': 'Tue, 16 May 2017 05:16:31 GMT',
+22 verbose headers   etag: 'W/"591a8b2f-25b93"',
+22 verbose headers   'content-encoding': 'gzip',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   'content-length': '19254',
+22 verbose headers   'accept-ranges': 'bytes',
+22 verbose headers   date: 'Wed, 17 May 2017 03:30:44 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   age: '241',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-nrt6123-NRT',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '3',
+22 verbose headers   'x-timer': 'S1494991845.704532,VS0,VE0',
+22 verbose headers   vary: 'Accept-Encoding' }
+23 silly get cb [ 200,
+23 silly get   { server: 'nginx/1.10.3',
+23 silly get     'content-type': 'application/json',
+23 silly get     'last-modified': 'Tue, 16 May 2017 05:16:31 GMT',
+23 silly get     etag: 'W/"591a8b2f-25b93"',
+23 silly get     'content-encoding': 'gzip',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     'content-length': '19254',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Wed, 17 May 2017 03:30:44 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '241',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-nrt6123-NRT',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '3',
+23 silly get     'x-timer': 'S1494991845.704532,VS0,VE0',
+23 silly get     vary: 'Accept-Encoding' } ]
+24 verbose get saving socket.io to /Users/kaiqigu/.npm/registry.npmjs.org/socket.io/.cache.json
+25 verbose correctMkdir /Users/kaiqigu/.npm correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule socket.io@2.0.1 checking installable status
+39 silly cache add args [ 'socket.io', null ]
+40 verbose cache add spec socket.io
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'socket.io',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'socket.io',
+41 silly cache add   name: 'socket.io',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed socket.io@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for socket.io
+44 info addNameTag [ 'socket.io', 'latest' ]
+45 silly mapToRegistry name socket.io
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'socket.io',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'socket.io',
+48 silly mapToRegistry   name: 'socket.io',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+50 verbose addNameTag registry:https://registry.npmjs.org/socket.io not in flight; fetching
+51 verbose get https://registry.npmjs.org/socket.io not expired, no request
+52 silly addNameTag next cb for socket.io with tag latest
+53 silly addNamed socket.io@2.0.1
+54 verbose addNamed "2.0.1" is a plain semver version for socket.io
+55 silly mapToRegistry name socket.io
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry data Result {
+58 silly mapToRegistry   raw: 'socket.io',
+58 silly mapToRegistry   scope: null,
+58 silly mapToRegistry   escapedName: 'socket.io',
+58 silly mapToRegistry   name: 'socket.io',
+58 silly mapToRegistry   rawSpec: '',
+58 silly mapToRegistry   spec: 'latest',
+58 silly mapToRegistry   type: 'tag' }
+59 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+60 verbose addRemoteTarball https://registry.npmjs.org/socket.io/-/socket.io-2.0.1.tgz not in flight; adding
+61 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket.io/-/socket.io-2.0.1.tgz',
+61 verbose addRemoteTarball   '064c125178462e477a6df23d2fdad18dd1c5914f' ]
+62 info retry fetch attempt 1 at 11:30:44
+63 info attempt registry request try #1 at 11:30:44
+64 http fetch GET https://registry.npmjs.org/socket.io/-/socket.io-2.0.1.tgz
+65 http fetch 200 https://registry.npmjs.org/socket.io/-/socket.io-2.0.1.tgz
+66 info retry will retry, error on last attempt: Error: read ECONNRESET
+67 silly fetchAndShaCheck shasum 064c125178462e477a6df23d2fdad18dd1c5914f
+68 silly rollbackFailedOptional Starting
+69 silly rollbackFailedOptional Finishing
+70 silly runTopLevelLifecycles Finishing
+71 silly install printInstalled
+72 verbose stack Error: shasum check failed for /var/folders/7t/cnqh_20s6jj7pyfyl00_xfxh0000gn/T/npm-9089-9665f376/registry.npmjs.org/socket.io/-/socket.io-2.0.1.tgz
+72 verbose stack Expected: 064c125178462e477a6df23d2fdad18dd1c5914f
+72 verbose stack Actual:   71e4c81e172bac00e358704d99d521b8e6e15f07
+72 verbose stack From:     https://registry.npmjs.org/socket.io/-/socket.io-2.0.1.tgz
+72 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/sha/index.js:25:8
+72 verbose stack     at ReadStream.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/sha/index.js:72:7)
+72 verbose stack     at emitNone (events.js:91:20)
+72 verbose stack     at ReadStream.emit (events.js:185:7)
+72 verbose stack     at endReadableNT (_stream_readable.js:974:12)
+72 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+72 verbose stack     at process._tickCallback (internal/process/next_tick.js:104:9)
+73 verbose cwd /Users/kaiqigu/Documents/yuxinProjects/ser
+74 error Darwin 16.0.0
+75 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "socket.io"
+76 error node v6.10.3
+77 error npm  v3.10.10
+78 error shasum check failed for /var/folders/7t/cnqh_20s6jj7pyfyl00_xfxh0000gn/T/npm-9089-9665f376/registry.npmjs.org/socket.io/-/socket.io-2.0.1.tgz
+78 error Expected: 064c125178462e477a6df23d2fdad18dd1c5914f
+78 error Actual:   71e4c81e172bac00e358704d99d521b8e6e15f07
+78 error From:     https://registry.npmjs.org/socket.io/-/socket.io-2.0.1.tgz
+79 error If you need help, you may report this error at:
+79 error     <https://github.com/npm/npm/issues>
+80 verbose exit [ 1, true ]
