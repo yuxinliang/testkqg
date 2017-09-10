@@ -4,7 +4,7 @@ class myHttp {
 	public static setHttp() {
 		var request = new egret.HttpRequest();
 		request.responseType = egret.HttpResponseType.TEXT;
-		request.open("http://192.168.7.11:8080", egret.HttpMethod.GET);
+		request.open("http://192.168.7.185:8080", egret.HttpMethod.GET);
 		request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 		request.send();
 		request.addEventListener(egret.Event.COMPLETE, this.onGetComplete, this);

@@ -31,7 +31,7 @@ class mySocket extends egret.WebSocket {
         this.addEventListener(egret.Event.CLOSE,this.__onClose,this);
         this.addEventListener(egret.IOErrorEvent.IO_ERROR,this.__onError,this);
         console.log("socket:connect ----------------------- __init");
-        this.connect("192.168.7.11",8080);
+        this.connect("ws://192.168.7.185",4001);
     }
     
     public __onConnect(event: egret.Event): void {

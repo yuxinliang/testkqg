@@ -1,16 +1,3 @@
-// var http = require('http');
-// var port = process.env.port || 1337;
-// http.createServer(function (req, res) {
-//     res.writeHead(200, { 'Content-Type': 'text/plain' });
-//     res.end('Hello Worldaaa\n');
-// }).listen(port);
-// console.log("Server Started! Please visit http://127.0.0.1:" + port);
-
-// //提交一个名称，生成一个模块
-// http.createServer(function (req,res){
-//     console.log("hahaha")
-// })
-
 var http = require('http'),
     url = require('url'),
     fs = require('fs'),
@@ -24,7 +11,7 @@ server = http.createServer(function (req, res) {
         case '/':
             res.writeHead(200, { 'Access-Control-Allow-Origin': '*' });
             res.writeHead(200, { 'Content-Type': 'text/html' });
-            res.write('<h1>Hello! Try the <a href="/index.html">Socket.io Test</a></h1>');
+            res.write('<h1>Hello! Try the <a href="/index.html">主页</a></h1>');
             res.end();
             break;
         case '/index.html':
@@ -40,7 +27,7 @@ server = http.createServer(function (req, res) {
         default: send404(res);
     }
 });
-function send404 (res) {
+function send404(res) {
     res.writeHead(404);
     res.write('404');
     res.end();

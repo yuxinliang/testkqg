@@ -35,7 +35,7 @@ var mySocket = (function (_super) {
         this.addEventListener(egret.Event.CLOSE, this.__onClose, this);
         this.addEventListener(egret.IOErrorEvent.IO_ERROR, this.__onError, this);
         console.log("socket:connect ----------------------- __init");
-        this.connect("192.168.7.11", 8080);
+        this.connect("ws://192.168.7.185", 4001);
     };
     mySocket.prototype.__onConnect = function (event) {
         console.log("-------------- socket is connected ----------------");
