@@ -8,6 +8,8 @@ server.on('connection', function(socket) {
     socket.end();
     //server.close();
 });
+
+
 server.on('close', function() {
     console.log('Server is now closed');
 });
