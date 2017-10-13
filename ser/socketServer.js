@@ -13,6 +13,8 @@ server.on('connection', function(socket) {
 server.on('close', function() {
     console.log('Server is now closed');
 });
+
+
 server.on('error', function(err) {
     console.log('Error occurred:', err.message);
 });
